@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\ResearchCode\DAM4GSN_CLIENT1\app\src\main\res" >
+            <file
+                name="ic_launcher"
+                path="C:\ResearchCode\DAM4GSN_CLIENT1\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_media_stop"
+                path="C:\ResearchCode\DAM4GSN_CLIENT1\app\src\main\res\drawable-hdpi\ic_media_stop.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_mobile_sensor_application"
+                path="C:\ResearchCode\DAM4GSN_CLIENT1\app\src\main\res\drawable-hdpi\ic_mobile_sensor_application.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\ResearchCode\DAM4GSN_CLIENT1\app\src\main\res\drawable-ldpi\ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\ResearchCode\DAM4GSN_CLIENT1\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="main"
+                path="C:\ResearchCode\DAM4GSN_CLIENT1\app\src\main\res\layout\main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="option_menu_main_activity"
+                path="C:\ResearchCode\DAM4GSN_CLIENT1\app\src\main\res\menu\option_menu_main_activity.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\ResearchCode\DAM4GSN_CLIENT1\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="strOrientationSensor" >Orientation
+                </string>
+                <string name="strLinearAccelerationSensor" >Linear Acceleration
+                </string>
+                <string name="strGyroscopeSensor" >Gyroscope
+                </string>
+                <string name="strTitleIPAddress" >IP Address
+                </string>
+                <string name="alertMsgConfigurePreferences" >Please Configure the IP address and Port number in Preferences. 
+                </string>
+                <string name="strSummarySampleRate" >Enter the Sample Rate (in Seconds)
+                </string>
+                <string name="strAccelerometerSensor" >Accelerometer
+                </string>
+                <string name="strProximitySensor" >Proximity
+                </string>
+                <string name="hello" >Hello World, MainActivity!
+                </string>
+                <string name="strPressureSensor" >Pressure
+                </string>
+                <string name="strTitleConnectToGSNServer" >Connect To GSN Server
+                </string>
+                <string name="strSummaryPortNumber" >Enter the Port number of the GSN Server
+                </string>
+                <string name="strTitlePortNumber" >Port Number
+                </string>
+                <string name="strTitleStopSensing" >Stop Sensing
+                </string>
+                <string name="strGravitySensor" >Gravity
+                </string>
+                <string name="strRotationVectorSensor" >Rotation Vector
+                </string>
+                <string name="strTitleStartSensing" >Start Sensing
+                </string>
+                <string name="msgConnectionFailed" >Connection Failed
+                </string>
+                <string name="strHumiditySensor" >Humidity
+                </string>
+                <string name="strMagneticFieldSensor" >Magnetic Field
+                </string>
+                <string name="strSummaryIPAddress" >Enter the IP address of the GSN Server
+                </string>
+                <string name="btnStartSensing" >Start Sensing
+                </string>
+                <string name="strTitlePreferences" >Preferences
+                </string>
+                <string name="strLightSensor" >Light
+                </string>
+                <string name="app_name" >Mobile Sensor
+                </string>
+                <string name="strTitleSamplingRate" >Sampling Rate
+                </string>
+                <string name="msgConnectionEstablished" >Connection Established
+                </string>
+                <string name="strAmbientTemperatureSensor" >Ambient Temperature
+                </string>
+            </file>
+            <file
+                name="preference"
+                path="C:\ResearchCode\DAM4GSN_CLIENT1\app\src\main\res\xml\preference.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="C:\ResearchCode\DAM4GSN_CLIENT1\app\build\generated\res\rs\debug" />
+        <source path="C:\ResearchCode\DAM4GSN_CLIENT1\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\ResearchCode\DAM4GSN_CLIENT1\app\src\debug\res" />
+    </dataSet>
+
+</merger>

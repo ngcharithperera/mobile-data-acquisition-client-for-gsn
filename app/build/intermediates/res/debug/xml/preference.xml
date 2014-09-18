@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:enabled="true"
+        android:key="IPAddress"
+        android:selectable="true"
+        android:summary="@string/strSummaryIPAddress"
+        android:title="@string/strTitleIPAddress"
+        android:inputType="phone"
+        android:digits="0123456789." />
+    <EditTextPreference
+        android:enabled="true"
+        android:key="PortNumber"
+        android:selectable="true"
+        android:summary="@string/strSummaryPortNumber"
+        android:title="@string/strTitlePortNumber" 
+        android:inputType="number"/>
+    <EditTextPreference
+        android:enabled="true"
+        android:key="SamplingRate"
+        android:selectable="true"
+        android:summary="@string/strSummarySampleRate"
+        android:title="@string/strTitleSamplingRate"
+        android:inputType="number" />
+
+</PreferenceScreen><!-- From: file:/C:/ResearchCode/DAM4GSN_CLIENT1/app/src/main/res/xml/preference.xml -->

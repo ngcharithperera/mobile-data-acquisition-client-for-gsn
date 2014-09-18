@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itmStartSensingService" android:checkable="true" android:icon="@android:drawable/ic_media_play" android:title="@string/strTitleStartSensing"></item>
+    <item android:id="@+id/itmStopSensingService" android:title="@string/strTitleStopSensing" android:icon="@drawable/ic_media_stop"></item>
+    <item android:id="@+id/itmPreferences" android:title="@string/strTitlePreferences" android:icon="@android:drawable/ic_menu_preferences"></item>
+    <item android:id="@+id/itmServerConnection" android:title="@string/strTitleConnectToGSNServer" android:icon="@android:drawable/ic_menu_send"></item>
+    
+
+</menu>

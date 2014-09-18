@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:overScrollMode="ifContentScrolls"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="wrap_content"
+            android:layout_height="30px"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cbxAccelerometer"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="@string/strAccelerometerSensor" />
+
+            <CheckBox
+                android:id="@+id/cbxAmbientTemperature"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="@string/strAmbientTemperatureSensor" />
+
+            <CheckBox
+                android:id="@+id/cbxGravity"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="@string/strGravitySensor" />
+
+            <CheckBox
+                android:id="@+id/cbxGyroscope"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="@string/strGyroscopeSensor" />
+
+            <CheckBox
+                android:id="@+id/cbxHumidity"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="@string/strHumiditySensor" />
+
+            <CheckBox
+                android:id="@+id/cbxLight"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="@string/strLightSensor" />
+
+            <CheckBox
+                android:id="@+id/cbxLinearAcceleration"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="@string/strLinearAccelerationSensor" />
+
+            <CheckBox
+                android:id="@+id/cbxMagneticField"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="@string/strMagneticFieldSensor" />
+
+            <CheckBox
+                android:id="@+id/cbxOrientation"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="@string/strOrientationSensor" />
+
+            <CheckBox
+                android:id="@+id/cbxPressure"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="@string/strPressureSensor" />
+
+            <CheckBox
+                android:id="@+id/cbxProximity"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="@string/strProximitySensor" />
+
+            <CheckBox
+                android:id="@+id/cbxRotationVector"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.28"
+                android:text="@string/strRotationVectorSensor" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/C:/ResearchCode/DAM4GSN_CLIENT1/app/src/main/res/layout/main.xml -->
