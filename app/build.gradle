@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 15
-    buildToolsVersion "20.0.0"
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "au.csiro.openiot"
@@ -16,7 +16,7 @@ android {
 
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
